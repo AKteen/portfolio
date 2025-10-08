@@ -28,4 +28,41 @@
 .footer-box p{
     color: white;
     font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 15px;
+        margin-top: 80px;
+    }
+    
+    .footer-box {
+        width: 350px;
+        height: 38px;
+    }
+    
+    .footer-box p {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 10px;
+        margin-top: 60px;
+    }
+    
+    .footer-box {
+        width: 280px;
+        height: 36px;
+        border-radius: 25px;
+    }
+    
+    .footer-box p {
+        font-size: 13px;
+    }
 }

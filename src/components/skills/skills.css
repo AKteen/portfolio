@@ -5,14 +5,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 800px;
+    min-height: 800px;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 10;
     margin: 200px auto;
+    padding: 0 20px;
 }
-
 
 .skill-h{
     color: white;
@@ -26,6 +26,7 @@
 .skill-box{
     display: flex;
     width: 100%;
+    max-width: 1200px;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -34,4 +35,32 @@
 
 .skill-box > * {
     margin: 0 auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .skill-container {
+        min-height: 600px;
+        margin: 150px auto;
+        padding: 0 30px;
+    }
+    
+    .skill-h {
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .skill-container {
+        min-height: 500px;
+        margin: 100px auto;
+        padding: 0 20px;
+    }
+    
+    .skill-h {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
 }

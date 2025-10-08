@@ -152,11 +152,34 @@
     width: 90%;
     margin: 0 auto;
     padding: 0.5em;
+    max-width: calc(100vw - 40px);
   }
 
   .card {
     width: 100%;
     min-height: 180px;
+    max-width: 100%;
+  }
+  
+  .card__logo {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  
+  .card__multi-logos .card__logo {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  
+  .card__multi-logos:has(img[alt="HTML5"]) .card__logo,
+  .card__multi-logos:has(img[alt="Node.js"]) .card__logo {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  
+  .card__logo[src="/brain-logo.png"] {
+    width: 40px !important;
+    height: 40px !important;
   }
 }
 

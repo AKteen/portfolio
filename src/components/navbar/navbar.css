@@ -2,15 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-body{
-    margin: 0;
-    background-color: black;
-    overflow-x: hidden;
-    font-family: 'Poppins';
+* {
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Poppins';
+    min-width: 320px;
+}
+
+/* Global responsive utilities */
+@media (max-width: 768px) {
+    section {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 0 15px;
+    }
 }
 
 .nav-btn{
@@ -144,72 +161,74 @@ html {
     }
 }
 
-/* Mobile Responsive */
+/* Mobile Responsive - Keep desktop design */
 @media (max-width: 768px) {
     .nav-header {
         font-size: 18px;
-        margin-left: 15px;
+        margin-left: 20px;
     }
     
     .nav-btn {
-        padding: 6px 12px;
-        font-size: 14px;
+        padding: 8px 16px;
     }
     
     .nav-menu-container {
-        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         top: 100%;
-        left: 0;
-        right: 0;
-        transform: none;
-        background: rgba(18, 18, 58, 0.95);
-        backdrop-filter: blur(10px);
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
         padding: 20px;
-        gap: 15px;
+        margin-top: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     }
     
     .nav-btn.with-menu {
         position: static;
-        margin-right: 0;
-        margin-bottom: 10px;
+        transform: none;
+        margin-right: 20px;
     }
     
     .nav-ul {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
     .nav-li {
-        text-align: center;
-        padding: 12px 20px;
-        width: 100%;
-        box-sizing: border-box;
+        padding: 8px 16px;
+        font-size: 14px;
+        white-space: nowrap;
     }
 }
 
 @media (max-width: 480px) {
     .nav-box {
-        height: 60px;
+        height: 70px;
     }
     
     .nav-header {
         font-size: 16px;
-        margin-left: 10px;
-    }
-    
-    .nav-btn {
-        padding: 5px 10px;
-        font-size: 12px;
+        margin-left: 15px;
     }
     
     .nav-menu-container {
+        left: 10px;
+        right: 10px;
+        transform: none;
         padding: 15px;
     }
     
+    .nav-ul {
+        gap: 10px;
+    }
+    
     .nav-li {
-        padding: 10px 15px;
-        font-size: 14px;
+        padding: 6px 12px;
+        font-size: 13px;
     }
 }

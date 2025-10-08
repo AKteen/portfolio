@@ -116,3 +116,74 @@
     font-weight: 500;
     min-height: 20px;
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 30px 20px;
+    }
+    
+    .contact-box {
+        max-width: 500px;
+        padding: 35px;
+        gap: 25px;
+    }
+    
+    .contact-title {
+        font-size: 2.2rem;
+    }
+    
+    .form-input,
+    .form-textarea {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+    
+    .form-submit-btn {
+        padding: 12px 25px;
+        font-size: 15px;
+        height: 45px;
+        width: 180px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 20px 15px;
+    }
+    
+    .contact-box {
+        max-width: 100%;
+        padding: 25px;
+        gap: 20px;
+        border-radius: 15px;
+    }
+    
+    .contact-title {
+        font-size: 2rem;
+    }
+    
+    .form-input,
+    .form-textarea {
+        padding: 12px 16px;
+        font-size: 14px;
+        border-radius: 25px;
+    }
+    
+    .form-textarea {
+        min-height: 100px;
+    }
+    
+    .form-submit-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+        height: 42px;
+        width: 160px;
+        border-radius: 25px;
+    }
+    
+    .form-result {
+        font-size: 14px;
+    }
+}
