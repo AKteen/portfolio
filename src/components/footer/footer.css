@@ -1,0 +1,31 @@
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+    margin-top: 100px;
+
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid rgb(31, 30, 30);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-box p{
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,72 @@
+.exp-container {
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 10;
+    padding: 50px 20px;
+}
+
+.exp-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    gap: 30px;
+    transition: all 0.9s ease;
+    box-shadow: 0 0 0px 0px transparent;
+}
+
+.exp-box:hover{
+    box-shadow: 0 0 300px 1px #7c2cfd;
+    transform: translateY(-5px);
+    
+}
+
+.exp-h {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.exp-p h3 {
+    color: #7c2cfd;
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.exp-date {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+}
+
+.exp-list {
+    color: rgb(190, 190, 190);
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 20px;
+    margin: 0;
+    list-style: disc;
+}
+
+.exp-list li {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.exp-list li::marker {
+    color: #ffffff;
+}
