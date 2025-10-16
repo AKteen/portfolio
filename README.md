@@ -1,3 +1,5 @@
+#LIVE ON : https://adityakulkarniportfolio.vercel.app/
+
 # Portfolio Website
 
 A modern, responsive portfolio website built with React and Vite, featuring smooth animations and interactive components.
@@ -22,7 +24,6 @@ A modern, responsive portfolio website built with React and Vite, featuring smoo
 - **Routing**: React Router DOM
 
 ## 📁 Project Structure
-
 ```
 src/
 ├── components/
@@ -96,7 +97,3 @@ The project is configured for deployment on Vercel with `vercel.json` configurat
 ```bash
 npm run build
 ```
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
