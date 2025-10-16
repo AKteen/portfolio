@@ -531,7 +531,7 @@ const MagicBento = ({
                       <img src="/cpp-logo.png" alt="C++" className="card__logo" />
                       <img src="/python-logo.png" alt="Python" className="card__logo" />
                       <img src="/js-logo.png" alt="JavaScript" className="card__logo" />
-                      <img src="/typescript-logo.png" alt="TypeScript" className="card__logo" />
+                      <img src="/typescript.png" alt="TypeScript" className="card__logo" />
                     </div>
                   ) : card.label === 'Database & Cloud' ? (
                     <div className="card__multi-logos">
