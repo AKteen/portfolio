@@ -1,16 +1,102 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite, featuring smooth animations and interactive components.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design** - Optimized for all device sizes
+- **Smooth Animations** - GSAP-powered animations and transitions
+- **Modern UI** - Clean design with Tailwind CSS
+- **Interactive Components** - Custom components with hover effects
+- **Fast Performance** - Built with Vite for optimal loading speeds
+- **3D Elements** - Three.js integration for enhanced visuals
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, JavaScript
+- **Styling**: Tailwind CSS 4.x
+- **Animations**: GSAP
+- **3D Graphics**: Three.js, OGL
+- **Build Tool**: Vite
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+│   ├── about/          # About section
+│   ├── contact/        # Contact form
+│   ├── experience/     # Experience timeline
+│   ├── footer/         # Footer component
+│   ├── hero/           # Hero section
+│   ├── navbar/         # Navigation bar
+│   └── skills/         # Skills showcase
+├── Bits/               # Reusable UI components
+│   ├── DarkVeil.jsx    # Dark theme overlay
+│   ├── MagicBento.jsx  # Bento grid layout
+│   └── ProfileCard.jsx # Profile card component
+└── lib/                # Utility functions
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone <repository-url>
+cd newPortFolio
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start development server
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 📜 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🎨 Customization
+
+1. **Personal Information**: Update content in component files
+2. **Styling**: Modify Tailwind classes or CSS files
+3. **Images**: Replace images in the `public/` directory
+4. **Animations**: Customize GSAP animations in component files
+
+## 📱 Sections
+
+- **Hero** - Introduction and main call-to-action
+- **About** - Personal background and story
+- **Experience** - Work history and projects
+- **Skills** - Technical skills and tools
+- **Contact** - Contact form and information
+
+## 🌐 Deployment
+
+The project is configured for deployment on Vercel with `vercel.json` configuration.
+
+```bash
+npm run build
+```
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).

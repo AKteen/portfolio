@@ -10,7 +10,7 @@ const MOBILE_BREAKPOINT = 768;
 const cardData = [
   {
     color: '#060010',
-    description: 'C++, Python, JavaScript (ES6+)',
+    description: 'C++, Python, JavaScript (ES6+), TypeScript (Basics)',
     label: 'Programming Languages',
     icon: '/js-logo.png'
   },
@@ -531,6 +531,7 @@ const MagicBento = ({
                       <img src="/cpp-logo.png" alt="C++" className="card__logo" />
                       <img src="/python-logo.png" alt="Python" className="card__logo" />
                       <img src="/js-logo.png" alt="JavaScript" className="card__logo" />
+                      <img src="/typescript-logo.png" alt="TypeScript" className="card__logo" />
                     </div>
                   ) : card.label === 'Database & Cloud' ? (
                     <div className="card__multi-logos">
@@ -689,6 +690,7 @@ const MagicBento = ({
                     <img src="/cpp-logo.png" alt="C++" className="card__logo" />
                     <img src="/python-logo.png" alt="Python" className="card__logo" />
                     <img src="/js-logo.png" alt="JavaScript" className="card__logo" />
+                    <img src="/typescript-logo.png" alt="TypeScript" className="card__logo" />
                   </div>
                 ) : card.label === 'Database & Cloud' ? (
                   <div className="card__multi-logos">
