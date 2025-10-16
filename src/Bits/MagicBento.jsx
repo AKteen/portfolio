@@ -543,6 +543,7 @@ const MagicBento = ({
                       <img src="/html-logo.png" alt="HTML5" className="card__logo" />
                       <img src="/css-logo.png" alt="CSS3" className="card__logo" />
                       <img src="/react-logo.png" alt="React" className="card__logo" />
+                      <img src="/redux.png" alt="Redux" className="card__logo" />
                       <img src="/figma-logo.png" alt="Figma" className="card__logo" />
                     </div>
                   ) : card.label === 'Backend Technologies' ? (
@@ -702,6 +703,7 @@ const MagicBento = ({
                     <img src="/html-logo.png" alt="HTML5" className="card__logo" />
                     <img src="/css-logo.png" alt="CSS3" className="card__logo" />
                     <img src="/react-logo.png" alt="React" className="card__logo" />
+                    <img src="/redux.png" alt="Redux" className="card__logo" />
                     <img src="/figma-logo.png" alt="Figma" className="card__logo" />
                   </div>
                 ) : card.label === 'Backend Technologies' ? (
