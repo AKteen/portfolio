@@ -28,7 +28,7 @@ const cardData = [
   },
   {
     color: '#060010',
-    description: 'HTML5, CSS3, ReactJS, Figma',
+    description: 'HTML5, CSS3, ReactJS, Redux, Figma',
     label: 'Frontend Technologies',
     icon: '/react-logo.png'
   },
